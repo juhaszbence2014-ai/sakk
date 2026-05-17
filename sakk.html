@@ -1,72 +1,69 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="hu">
-<head>
-    <meta charset="UTF-8">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Sakk</title>
-    <link rel="stylesheet" href="bootstrap.css">
-    <link rel="stylesheet" href="sakk.css">
-</head>
-<body>
-    <div class="container">
-        <div class="row">
-            <div class="col-md-12">
-                <h1>A Sakk</h1>
-            </div>
+    <link rel="stylesheet" href="bootstrap.css" />
+    <link rel="stylesheet" href="sakk.css" />
+  </head>
+  <body>
+    <div class="container">  <!-- Konténer mindent belepakolunk -->
+      <div class="row"> <!-- Első sor -->
+        <div class="col-md-12">  <!-- Teljes szélesség -->
+          <h1>A sakk</h1>
         </div>
-        <div class="row">
-        <div class="col-md-8">
-            <p>A sakk kétjátékos stratégiai táblajáték, amelyet 8×8 mezőből álló sakktáblán játszanak. A játék célja az ellenfél királyának mattadása. A kezdő felállásban a <span class="fk fekete">fehér király</span> és a <span class="fk feher">fekete királynő</span> a középső oszlopokban állnak, mellettük sorakoznak a többi bábuk. A <span class="fk fekete">fehér huszár</span> L alakban lép, a <span class="fk feher">fekete bástya</span> pedig vízszintesen vagy függőlegesen mozoghat tetszőleges távolságra. A táblán váltakozva követik egymást a <span class="fk fekete">világos mező</span> és a <span class="fk feher">sötét mező</span> négyzetek.</p>
-        
-            <h2>Figurák</h2>
-            <div class="row">
-                <div class="col-md-2">
-                    <p class="alakzat feher">&#9812;</p>
-                    <p class="kepalairas">Király</p>
-                </div>
-                <div class="col-md-2">
-                    <p class="alakzat fekete">&#9813;</p>
-                    <p class="kepalairas">Vezér</p>
-                </div>
-                <div class="col-md-2">
-                    <p class="alakzat feher">&#9814;</p>
-                    <p class="kepalairas">Bástya</p>
-                </div>
-                <div class="col-md-2">
-                    <p class="alakzat fekete">&#9815;</p>
-                    <p class="kepalairas">Futó</p>
-                </div>
-                <div class="col-md-2">
-                    <p class="alakzat feher">&#9816;</p>
-                    <p class="kepalairas">Huszár</p>
-                </div>
-                <div class="col-md-2">
-                    <p class="alakzat fekete">&#9817;</p>
-                    <p class="kepalairas">Gyalog</p>
-                </div>
-            </div>       
-        </div>
-            <div class="col-md-4">
-                <img src="vezer.png" alt="Vezer" class="w-100">
-                <p class="kepalairas">A vezér</p>
-            </div>
 
-            <div class="row">
-                <div class="col-md-12">
-                    <h2>A huszár</h2>
-                    <div class="row">
-                        <div class="col-md-3">
-                            <img src="huszar.jpg" alt="huszar" class="w-100">
-                        </div>
-                        <div class="col-md-9">
-                            
-                        </div>
-                    </div>
-                </div>
+        <div class="col-md-8"> <!-- Bal oldali 2/3  -->
+          <p>
+            A sakkban a <span class="fk feher">fehér király</span> és a
+            <span class="fk fekete">fekete királynő</span> kiemelt szerepet kap.
+            A támadásban fontos lehet a
+            <span class="fk feher">fehér huszár</span> és a
+            <span class="fk fekete">fekete bástya</span> helyzete is. A táblán
+            felváltva követik egymást a
+            <span class="fk feher">világos mező</span> és a
+            <span class="fk fekete">sötét mező</span>.
+          </p>
+
+          <h2>A figurák</h2> 
+
+          <div class="row"> <!-- Bal oldali 2/3 on belüli teljes szélességet igénybe vesszük 6 db -->
+            <div class="col-md-2">
+              <p class="alakzat fekete">&#9812;</p>
+              <p class="kepalairas">király</p>
             </div>
-          
-        
+            <div class="col-md-2">
+              <p class="alakzat feher">&#9813;</p>
+              <p class="kepalairas">vezér</p>
+            </div>
+            <div class="col-md-2">
+              <p class="alakzat fekete">&#9814;</p>
+              <p class="kepalairas">bástya</p>
+            </div>
+            <div class="col-md-2">
+              <p class="alakzat feher">&#9815;</p>
+              <p class="kepalairas">futó</p>
+            </div>
+            <div class="col-md-2">
+              <p class="alakzat fekete">&#9816;</p>
+              <p class="kepalairas">huszár</p>
+            </div>
+            <div class="col-md-2">
+              <p class="alakzat feher">&#9817;</p>
+              <p class="kepalairas">gyalog</p>
+            </div>
+          </div>
         </div>
+
+        <div class="col-md-4"> <!-- Jobb oldali 1/3  -->
+          <img src="vezer.png" class="w-100" alt="A vezér" />
+          <p class="kepalairas">A vezér</p>
+        </div>
+        
+      </div> <!-- Első sor záró  -->
+
+     
     </div>
-    
-</body>
+  </body>
 </html>
